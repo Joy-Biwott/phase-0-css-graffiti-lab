@@ -1,1 +1,15 @@
 /* write your override styles here */
+#wall .tag-1{
+    min-width: auto;
+    padding: 15px;
+}
+#wall #tag-4{
+    align-self: auto;
+    size: 90%;
+    background-position-x: left;
+}
+div#wall div.parent div:last-child div#tag-6{
+    align-items: baseline;
+    background-attachment: fixed;
+    max-width: fit-content;
+} 
