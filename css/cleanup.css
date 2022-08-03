@@ -1,15 +1,28 @@
 /* write your override styles here */
-#wall .tag-1{
-    min-width: auto;
-    padding: 15px;
+#wall .tag-1 {
+    display: none;
 }
-#wall #tag-4{
-    align-self: auto;
-    size: 90%;
-    background-position-x: left;
+
+div#wall #tag-2 {
+    display: none;
 }
-div#wall div.parent div:last-child div#tag-6{
-    align-items: baseline;
-    background-attachment: fixed;
-    max-width: fit-content;
-} 
+
+body div#wall #tag-3.slick {
+    display: none;
+}
+
+div#wall .parent #tag-4 {
+    display: none;
+}
+
+body div#wall div.parent div#tag-5.slick {
+    display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+    display: none;
+}
+
+body div#wall div.parent div > div#tag-7.slick{
+    display: none;
+}
